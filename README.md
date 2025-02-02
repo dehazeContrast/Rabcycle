@@ -1,5 +1,5 @@
 # Rabcycle
-Swift-based app using OpenCV to classify the recyclability of items
+Swift-based and Python-based app using OpenCV to classify the recyclability of items
 
 In-App Prototype 
 
