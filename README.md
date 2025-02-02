@@ -1,5 +1,5 @@
 # Rabcycle
-Swift-based and Python-based app using OpenCV to classify the recyclability of items
+Meet Rabcycle, your AI powered recycling friend. Just snap a photo and the app can instantly determine if the item is recyclable/compostable and can categorize it as bottles, plastic, metal, etc.
 
 In-App Prototype 
 
