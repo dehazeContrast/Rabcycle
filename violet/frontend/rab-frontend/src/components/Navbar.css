@@ -1,0 +1,29 @@
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul {
+    display: flex;
+    margin-top: auto;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.navbar li{
+    height: 50px;
+    padding: 10px 80px;
+}
+
+
+.navbar a{
+    font-size: 28px;
+    padding: 0px 10px;
+    color: black;
+}
+
+.navbar a:hover {
+    font-weight: 700;
+    transition: all 0.25s linear;
+}
