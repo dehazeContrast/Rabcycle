@@ -70,6 +70,9 @@
     border-radius: 100px;
     cursor: pointer;
 }
+.submit:hover {
+    background-color: rgb(173, 173, 173);
+}
 .forgot-password {
     margin: 10px 10px;
 }

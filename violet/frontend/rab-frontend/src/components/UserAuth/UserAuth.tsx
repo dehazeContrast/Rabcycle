@@ -6,11 +6,11 @@ import user_icon from '../../assets/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz2
 
 const UserAuth = () => {
 
-    const [action, setAction] = useState("Sign Up");
+    const [action, setAction] = useState("Login");
     return (
         <div className='container'>
             <div className="header">
-                <div className="text">Sign Up</div>
+                <div className="text">{action}</div>
                 <div className="underline"></div>
             </div>
             <div className="inputs">
@@ -29,8 +29,8 @@ const UserAuth = () => {
             </div>
             <div className="forgot-password">Forgot Password? <span>Click Here</span></div>
             <div className="submit-container">
-                <div className="submit">Sign Up</div>
-                <div className="submit">Login</div>
+                <div className={action==="Login"?"submit gray":"submit"} onClick={ () => {setAction("Sign Up")} }>Sign Up</div>
+                <div className={action==="Sign Up"?"submit gray":"submit"} onClick={ () => {setAction("Login")} }>Login</div>
             </div>
             
         </div>
