@@ -1,0 +1,9 @@
+.capture-btn {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.capture-btn:hover {
+    background-color: rgba(0, 0, 0, 0.856);
+}
