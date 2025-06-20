@@ -3,6 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import CameraInput from './components/CameraInput.tsx'
+import CaptureBtn from './components/CaptureBtn.tsx'
+import Navbar from './components/Navbar.tsx'
+import UserAuth from './components/UserAuth/UserAuth.tsx'
 
 
 function App() {
@@ -11,26 +14,13 @@ function App() {
   return (
     <>
       <div>
-        <CameraInput />
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+
+          <UserAuth/>
+        {/* <CameraInput />
+        <CaptureBtn />
+        <Navbar /> */}
+
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
