@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CameraInput</title>
+    <link rel="stylesheet" href="input.css" />
+</head>
+<body>
+    <div class="camera effect">
+        <video class="video"></video> <!--Reference to the video call-->
+        <div class="capture-btn">
+            <ion-icon name="camera-outline"></ion-icon>
+        </div>
+    </div>
+
+    <!--Going to draw the image from the camera footage 
+    that is taken-->
+    <canvas class="canvas" width="500" height="400"></canvas>
+
+    <!--Makrs up the camera piece that shows the display
+    currently(livefeed before the image is taken)-->
+    <script type="module" 
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+</script>
+<script 
+    nomodule 
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!--This is call to run the input from the camera and
+    take the still image of it-->
+    <script src="input.js"></script>
+  </body>
+</html>
