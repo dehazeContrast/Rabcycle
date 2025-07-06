@@ -1,7 +1,15 @@
 
 .navbar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center; 
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+
+    box-sizing: border-box;
 }
 
 .navbar ul {
@@ -21,9 +29,11 @@
     font-size: 28px;
     padding: 0px 10px;
     color: black;
+    border-radius: 30px;
 }
 
 .navbar a:hover {
     font-weight: 700;
-    transition: all 0.25s linear;
+    transition: all 0.10s linear;
+
 }
